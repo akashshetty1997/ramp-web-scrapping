@@ -200,5 +200,3 @@ Thanks to Ramp for creating this engaging CTF challenge. The challenge tested:
 ---
 
 **Final Flag: `sunbeam`** 🎯
-
-*Successfully solved on December 2024*
