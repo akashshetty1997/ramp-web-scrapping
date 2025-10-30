@@ -1,0 +1,270 @@
+# ==========================================
+# Node.js
+# ==========================================
+
+# Dependencies
+node_modules/
+jspm_packages/
+
+# Package manager files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# npm cache directory
+.npm
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Yarn v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# ==========================================
+# Logs and debugging
+# ==========================================
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# ==========================================
+# Testing
+# ==========================================
+
+# Test coverage
+coverage/
+*.lcov
+.nyc_output/
+
+# Jest
+coverage/
+junit.xml
+
+# ==========================================
+# Environment and config
+# ==========================================
+
+# Environment variables
+.env
+.env.test
+.env.production
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Config files with sensitive data
+config/local.js
+config/production.js
+
+# ==========================================
+# Build outputs
+# ==========================================
+
+# Build directories
+dist/
+build/
+out/
+.next/
+.nuxt/
+.cache/
+.parcel-cache/
+
+# Compiled binary addons
+build/Release
+
+# Typescript
+*.tsbuildinfo
+.tsc-cache/
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# ==========================================
+# IDE and Editor files
+# ==========================================
+
+# Visual Studio Code
+.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.history/
+
+# IntelliJ IDEA / WebStorm
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea_modules/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+Session.vim
+Sessionx.vim
+.netrwhist
+*~
+tags
+[._]*.un~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Atom
+.atom/
+
+# ==========================================
+# Operating System files
+# ==========================================
+
+# macOS
+.DS_Store
+.DS_Store?
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+.directory
+.Trash-*
+.nfs*
+
+# ==========================================
+# Project specific
+# ==========================================
+
+# Output files from the CTF solver
+output.txt
+result.json
+flag.txt
+extracted_url.txt
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Backup files
+*.backup
+*.bak
+*.orig
+
+# Archive files
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# ==========================================
+# Optional: Uncomment if needed
+# ==========================================
+
+# Keep package-lock.json in version control for consistent installs
+# !package-lock.json
+
+# If you want to commit specific .env example
+# !.env.example
+
+# If you want to commit VSCode settings for team
+# !.vscode/settings.json
+
+# ==========================================
+# Security
+# ==========================================
+
+# Private keys
+*.pem
+*.key
+*.cert
+*.crt
+*.p12
+*.pfx
+
+# AWS
+.aws/
+
+# Google Cloud
+.gcloud/
+*.json.keyfile
+
+# Azure
+.azure/

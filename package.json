@@ -1,0 +1,33 @@
+{
+  "name": "ramp-web-scraping",
+  "version": "1.0.0",
+  "description": "Ramp CTF Challenge Solver - Professional Node.js implementation following SOLID principles",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "debug": "node index.js --debug",
+    "test": "jest",
+    "lint": "eslint src/"
+  },
+  "keywords": [
+    "ctf",
+    "web-scraping",
+    "ramp",
+    "challenge",
+    "solid-principles"
+  ],
+  "author": "Akash",
+  "license": "MIT",
+  "dependencies": {
+    "jsdom": "^23.0.1",
+    "xpath": "^0.0.33",
+    "xmldom": "^0.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "jest": "^29.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
