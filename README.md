@@ -37,7 +37,7 @@ Where `*` represents a wildcard (zero or more characters).
 ### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/ramp-web-scraping.git
+git clone https://github.com/akashshetty1997/ramp-web-scraping.git
 cd ramp-web-scraping
 
 # Install dependencies
